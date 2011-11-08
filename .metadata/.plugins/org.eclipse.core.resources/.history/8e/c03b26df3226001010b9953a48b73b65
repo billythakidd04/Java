@@ -1,0 +1,24 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+
+public class Main 
+{
+	public static void main(String[] args) 
+	{
+		//create queue
+		Queue<String> q = new LinkedList<String>();
+		//create update thread
+		updateThread Update = new updateThread(q);
+		//create user thread
+		userInterfaceThread User = new userInterfaceThread(q);
+		//create/find file
+		//start user thread
+		User.Run();
+		//start update thread
+		while(true)
+		{
+		Update.run();
+		}
+	}
+}

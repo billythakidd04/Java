@@ -1,0 +1,4 @@
+#Tue Nov 16 17:49:05 EST 2010
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=theme

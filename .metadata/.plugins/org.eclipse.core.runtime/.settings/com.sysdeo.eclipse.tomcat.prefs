@@ -1,0 +1,9 @@
+#Tue Nov 16 17:55:44 EST 2010
+tomcatJRE=1247333267250
+managerUrl=http\://localhost\:8080/manager
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+tomcatVersion=tomcatV6
+managerUser=admin
+managerPassword=admin
+computeSourcePath=true
